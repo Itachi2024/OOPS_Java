@@ -2,6 +2,16 @@
 
 
 public class Car {
+    private String make;
+    private int model;
+    private int year;
+
+    Car(String make, int model , int year){
+        this.make = make;
+        this.model = model;
+        this.year = year;
+        }
+        
 
     
 }
